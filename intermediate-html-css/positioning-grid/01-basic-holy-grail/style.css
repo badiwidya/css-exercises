@@ -50,7 +50,7 @@ html {
 /* Solution */
 .container {
   display: grid;
-  grid-template: 100px 100px 500px 100px / 400px 850px;
+  grid-template: 100px 100px 500px 100px / 400px 850px; /* Optional if working with grid-template areas */
   grid-template-areas:
   "header header"
   "sidebar nav"
@@ -69,6 +69,7 @@ html {
 
 .article {
   grid-area: article;
+  overflow-y: scroll;
 }
 
 .footer {
